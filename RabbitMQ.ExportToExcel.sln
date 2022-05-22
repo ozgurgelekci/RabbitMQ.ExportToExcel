@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ExportToExcel.ExcelCreateWeb", "RabbitMQ.ExportToExcel.ExcelCreateWeb\RabbitMQ.ExportToExcel.ExcelCreateWeb.csproj", "{8E625551-F0FA-434A-83F6-DE4E80796366}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E625551-F0FA-434A-83F6-DE4E80796366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E625551-F0FA-434A-83F6-DE4E80796366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E625551-F0FA-434A-83F6-DE4E80796366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E625551-F0FA-434A-83F6-DE4E80796366}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC4CDB6B-5B4E-4E2D-940D-95B0C88D50C2}
+	EndGlobalSection
+EndGlobal
