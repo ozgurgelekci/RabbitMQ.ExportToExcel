@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace RabbitMQ.ExportToExcel.FileCreateWorkerService.Models
+﻿namespace RabbitMQ.ExportToExcel.FileCreateWorkerService.Models
 {
     /// <summary>
     /// Products sold or used in the manfacturing of sold products.

@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RabbitMQ.ExportToExcel.ExcelCreateWeb.Contexts;
-using System.IO;
 
 namespace RabbitMQ.ExportToExcel.ExcelCreateWeb.Controllers
 {
