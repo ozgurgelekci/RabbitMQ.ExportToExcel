@@ -41,6 +41,12 @@ namespace RabbitMQ.ExportToExcel.FileCreateWorkerService
         {
             AsyncEventingBasicConsumer consumer = new(_channel);
 
+            _channel.BasicConsume(
+                queue: RabbitMQClientService.QueueName,
+                autoAck: false,
+                consumer: consumer
+                );
+
             consumer.Received += Consumer_Received;
 
             return Task.CompletedTask;
