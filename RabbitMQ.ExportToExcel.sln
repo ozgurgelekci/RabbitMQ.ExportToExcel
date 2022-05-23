@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ExportToExcel.ExcelCreateWeb", "RabbitMQ.ExportToExcel.ExcelCreateWeb\RabbitMQ.ExportToExcel.ExcelCreateWeb.csproj", "{8E625551-F0FA-434A-83F6-DE4E80796366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.ExportToExcel.ExcelCreateWeb", "RabbitMQ.ExportToExcel.ExcelCreateWeb\RabbitMQ.ExportToExcel.ExcelCreateWeb.csproj", "{8E625551-F0FA-434A-83F6-DE4E80796366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ExportToExcel.Common", "RabbitMQ.ExportToExcel.Common\RabbitMQ.ExportToExcel.Common.csproj", "{326A0EF5-5F41-4192-8639-D123F5B335F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ExportToExcel.FileCreateWorkerService", "RabbitMQ.ExportToExcel.FileCreateWorkerService\RabbitMQ.ExportToExcel.FileCreateWorkerService.csproj", "{B7B6F065-6A17-4614-8CC9-DAF6F913809E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{8E625551-F0FA-434A-83F6-DE4E80796366}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E625551-F0FA-434A-83F6-DE4E80796366}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E625551-F0FA-434A-83F6-DE4E80796366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326A0EF5-5F41-4192-8639-D123F5B335F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326A0EF5-5F41-4192-8639-D123F5B335F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326A0EF5-5F41-4192-8639-D123F5B335F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326A0EF5-5F41-4192-8639-D123F5B335F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B6F065-6A17-4614-8CC9-DAF6F913809E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B6F065-6A17-4614-8CC9-DAF6F913809E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B6F065-6A17-4614-8CC9-DAF6F913809E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B6F065-6A17-4614-8CC9-DAF6F913809E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
